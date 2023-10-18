@@ -1,0 +1,13 @@
+{
+  "name": "yarn-berry-test",
+  "private": true,
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "pino-pretty": "^10.2.3",
+    "prettier": "^3.0.3"
+  }
+}
