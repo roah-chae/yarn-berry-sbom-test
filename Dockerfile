@@ -11,7 +11,7 @@ RUN apt-get update -y && apt install -y build-essential curl git libc6-i386-cros
 
 WORKDIR /${app_dir_base}/${app_name}
 
-COPY ${app_name} /${app_dir_base}/${app_name}
+# COPY ${app_name} /${app_dir_base}/${app_name}
 
 RUN npm install yarn -g && \
     yarn set version stable && \
